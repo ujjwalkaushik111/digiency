@@ -1,137 +1,189 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     list-style-type: none !important;
     text-decoration: none !important;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     max-width: 1170px !important;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
-.bg_slider{
-     background: rgba(255, 247, 244, 1);
-    
+
+.bg_slider {
+    background: rgba(255, 247, 244, 1);
+
 }
-.slick_box{
+
+.slick_box {
     padding: 25px 31px 25px 25px;
     background: #FFFFFF;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-   
+
 }
-.percent_box{
+
+.percent_box {
     max-width: 125px;
     height: 108px;
-    padding:11px 19px 15px 20px ;
+    padding: 11px 19px 15px 20px;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
     background: #FFFFFF;
     border-radius: 5px;
 }
-.infobar_box{
- padding:70px 60px;
- background-color:rgba(255, 83, 0, 1);
- border-radius: 10px;
+
+.infobar_box {
+    padding: 70px 60px;
+    background-color: rgba(255, 83, 0, 1);
+    border-radius: 10px;
 }
-.read_more_box{
-    padding: 15px 15px 30px 10px ;
-background: #FFFFFF;
-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
-border-radius: 10px;
+
+.read_more_box {
+    padding: 15px 15px 30px 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
-.input_box{
-    padding:51px 40px ;
+
+.input_box {
+    padding: 51px 40px;
     background-color: #FF5300;
-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
-border-radius: 10px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
-.input_box2{
-    padding: 20px 69px 20px 25px;
-    background-color: #FFFFFF ;
+
+.input_box2 {
+    padding: 3px 4px 3px 4px;
+    background-color: #FFFFFF;
     border-radius: 5px;
 
 }
-.email_box{
+
+.B-sub {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF5300;
+    border-radius: 5px;
+    padding: 15px 33px;
+    border: none;
+}
+
+.email_box {
     outline: none;
     border: none;
-   font-weight: 400;
-   font-family: 'Poppins', sans-serif ;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
 
 }
 
-.white_space{
+.white_space {
     white-space: nowrap;
 }
-.prev{
+
+.prev {
     position: absolute;
     left: -4%;
     top: 57%;
 }
-.next{
+
+.next {
     position: absolute;
-   
-        right: -4%;
-        top: 57%;
-    
+
+    right: -4%;
+    top: 57%;
+
 }
-.read_btn{
+
+.read_btn {
     padding: 13px 23px;
-    background-color:#FF5300;
+    background-color: #FF5300;
     color: #FFFFFF;
     border-radius: 5px;
-    
+
 }
-.subscribe_btn{
-background-color: #FF5300;
-padding: 15px 35px;
-border-radius: 5px;
-color: #FFFFFF;
-white-space: nowrap;
+
+.subscribe_btn {
+    background-color: #FF5300;
+    padding: 15px 35px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    white-space: nowrap;
 }
+
 /* font classes  */
-.ff_popins{
+.ff_popins {
     font-family: 'Poppins', sans-serif;
 }
-.ff_worksans{
+
+.ff_worksans {
     font-family: 'Work Sans', sans-serif;
 }
-.fs_xxxsm{
+
+.fs_xxxsm {
     font-size: 10px;
 }
-.fs_xxsm{
+
+.fs_xxsm {
     font-size: 13px;
 }
-.fs_xsm{
+
+.fs_xsm {
     font-size: 16px;
 }
-.fs_sm{
+
+.fs_sm {
     font-size: 20px;
 }
-.fs_md{
+
+.fs_md {
     font-size: 25px;
 }
-.fs_lg{
+
+.fs_lg {
     font-size: 39px;
 }
-.clr_orange{
+
+.clr_orange {
     color: rgba(255, 83, 0, 1);
 
 }
-.clr_gray{
-    color:rgba(123, 123, 123, 1);
-    
+
+.clr_gray {
+    color: rgba(123, 123, 123, 1);
+
 }
-.icon{
+
+.icon {
     background-color: #FFFFFF;
     padding: 20px 23px;
     border-radius: 100px;
     cursor: pointer;
 }
-.fb:hover{
+
+.icon:hover .orange_path {
     fill: #FF5300;
+}
+
+@media (max-width:556px) {
+    .fs_md_24 {
+        font-size: 24px;
+    }
+
+    .fs_md_10 {
+        font-size: 10px;
+    }
+
+    .B-sub {
+        padding: 5px 16px;
+    }
+
 }
