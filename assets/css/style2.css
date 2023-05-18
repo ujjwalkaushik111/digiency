@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg_slider{
+     background: rgba(255, 247, 244, 1);
+    
+}
+.slick_box{
+    padding: 25px 31px 25px 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+   
+}
+.percent_box{
+    max-width: 125px;
+    height: 108px;
+    padding:11px 19px 15px 20px ;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.infobar_box{
+ padding:70px 60px;
+ background-color:rgba(255, 83, 0, 1);
+ border-radius: 10px;
+}
+.read_more_box{
+    padding: 15px 15px 30px 10px ;
+background: #FFFFFF;
+box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+}
+.input_box{
+    padding:51px 40px ;
+    background-color: #FF5300;
+box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+}
+.input_box2{
+    padding: 20px 69px 20px 25px;
+    background-color: #FFFFFF ;
+    border-radius: 5px;
+
+}
+.email_box{
+    outline: none;
+    border: none;
+   font-weight: 400;
+   font-family: 'Poppins', sans-serif ;
+
+}
+
+.white_space{
+    white-space: nowrap;
+}
+.prev{
+    position: absolute;
+    left: -4%;
+    top: 57%;
+}
+.next{
+    position: absolute;
+   
+        right: -4%;
+        top: 57%;
+    
+}
+.read_btn{
+    padding: 13px 23px;
+    background-color:#FF5300;
+    color: #FFFFFF;
+    border-radius: 5px;
+    
+}
+.subscribe_btn{
+background-color: #FF5300;
+padding: 15px 35px;
+border-radius: 5px;
+color: #FFFFFF;
+white-space: nowrap;
+}
+/* font classes  */
+.ff_popins{
+    font-family: 'Poppins', sans-serif;
+}
+.ff_worksans{
+    font-family: 'Work Sans', sans-serif;
+}
+.fs_xxxsm{
+    font-size: 10px;
+}
+.fs_xxsm{
+    font-size: 13px;
+}
+.fs_xsm{
+    font-size: 16px;
+}
+.fs_sm{
+    font-size: 20px;
+}
+.fs_md{
+    font-size: 25px;
+}
+.fs_lg{
+    font-size: 39px;
+}
+.clr_orange{
+    color: rgba(255, 83, 0, 1);
+
+}
+.clr_gray{
+    color:rgba(123, 123, 123, 1);
+    
+}
+.icon{
+    background-color: #FFFFFF;
+    padding: 20px 23px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.fb:hover{
+    fill: #FF5300;
+}
