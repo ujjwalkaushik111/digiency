@@ -20,18 +20,35 @@
     background: rgba(255, 247, 244, 1);
 
 }
+
 /* after clases */
 
-.line1{
-   border-right: 3px solid white;
+.line1 {
+    border-right: 3px solid white;
     height: 136px;
     border-radius: 4px;
 }
-.line2{
+
+.line2 {
     border-right: 3px solid white;
-     height: 136px;
-     border-radius: 4px;
- }
+    height: 136px;
+    border-radius: 4px;
+}
+
+.upperline {
+    position: relative;
+
+}
+
+.upperline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 1px;
+    background-color: #FFFFFF;
+    width: 100%;
+}
 
 
 /* box classes  */
@@ -40,7 +57,7 @@
     background: #FFFFFF;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    
+
 
 }
 
@@ -99,6 +116,7 @@
     font-family: 'Poppins', sans-serif;
 
 }
+
 .slick-dots {
     bottom: -152px !important;
 }
@@ -106,8 +124,10 @@
 .white_space {
     white-space: nowrap;
 }
+
 /* btn classes  */
 .prev {
+    cursor: pointer;
     position: absolute;
     left: -4%;
     top: 57%;
@@ -115,7 +135,7 @@
 
 .next {
     position: absolute;
-
+    cursor: pointer;
     right: -4%;
     top: 57%;
 
@@ -190,36 +210,42 @@
 .icon:hover .orange_path {
     fill: #FF5300;
 }
+
 @media (max-width:1066px) {
-    .prev{
-        
-            position: absolute;
-            left: 4%;
-            top: 79%;
-        
-    }
-    .next{
+    .prev {
+
         position: absolute;
-            right: 4%;
-            top: 79%;
+        left: 4%;
+        top: 79%;
+
     }
-    
+
+    .next {
+        position: absolute;
+        right: 4%;
+        top: 79%;
+    }
+
 }
+
 @media (max-width:992px) {
-    .flex_md_reverse{
+    .flex_md_reverse {
         flex-direction: column-reverse;
     }
-    .line2{
+
+    .line2 {
         border-right: none;
     }
-    
+
 }
+
 @media (max-width:768px) {
-    .prev{
+    .prev {
         display: none;
 
     }
-    .next{
+
+    .next {
         display: none;
     }
 }
@@ -228,6 +254,7 @@
     .fs_md_24 {
         font-size: 24px;
     }
+
     .fs_md_10 {
         font-size: 10px;
     }
@@ -235,7 +262,8 @@
     .B-sub {
         padding: 5px 16px;
     }
-    .line1{
+
+    .line1 {
         border-right: none;
     }
 }
