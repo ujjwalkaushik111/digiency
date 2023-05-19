@@ -148,6 +148,13 @@
     border-radius: 5px;
 
 }
+.read_btn:hover {
+  
+    color: #FF5300;
+    background-color: #FFFFFF;
+    border:1px solid #FF5300;
+
+}
 
 .subscribe_btn {
     background-color: #FF5300;
@@ -211,7 +218,7 @@
     fill: #FF5300;
 }
 
-@media (max-width:1066px) {
+@media (max-width:1266px) {
     .prev {
 
         position: absolute;
@@ -248,13 +255,31 @@
     .next {
         display: none;
     }
+   
+    
+    .fs_sm {
+        font-size: 18px;
+    }
+    
+    .fs_md {
+        font-size: 22px;
+    }
+    
+    .fs_lg {
+        font-size: 35px;
+    }
 }
 
 @media (max-width:576px) {
     .fs_md_24 {
         font-size: 24px;
     }
-
+    .flex_column{
+        flex-direction: column;
+    }
+    .text_center{
+        text-align: center;
+    }
     .fs_md_10 {
         font-size: 10px;
     }
@@ -265,5 +290,16 @@
 
     .line1 {
         border-right: none;
+    }
+    .fs_sm {
+        font-size: 17px;
+    }
+    
+    .fs_md {
+        font-size: 20px;
+    }
+    
+    .fs_lg {
+        font-size: 32px;
     }
 }
