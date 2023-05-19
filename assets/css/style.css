@@ -207,6 +207,18 @@
     color: #FF5300;
 }
 
+.path-right {
+    cursor: pointer;
+
+}
+
+/* .icon:hover .orange_path {
+    fill: #FF5300;
+} */
+
+/* .xyz:hover svg path {
+    fill: white;
+} */
 
 
 .text-align {
