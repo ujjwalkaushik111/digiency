@@ -44,16 +44,15 @@
     font-size: 20px;
     line-height: 30px;
     color: #373737;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: transparent;
+    transition: 300ms linear;
 }
 
-/* .name-2 {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    color: #FF5300;
+.name:hover {
+    -webkit-text-stroke: 0.5px;
+}
 
-} */
 
 .button-L {
     font-family: 'Poppins';
@@ -69,6 +68,7 @@
 .button-L:hover {
     background-color: #FF5300;
     color: #FFFFFF;
+    border: none;
 }
 
 .bg-color {
@@ -133,6 +133,11 @@
     background: #FFFFFF;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+}
+
+.box:hover {
+    scale: 1.02;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 1);
 }
 
 .h1-ux {
@@ -371,6 +376,11 @@ input[type="checkbox"] {
     border-radius: 10px;
 }
 
+.read_more_box:hover {
+    scale: 1.02;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 1);
+}
+
 .input_box {
     padding: 51px 40px;
     background-color: #FF5300;
@@ -383,6 +393,21 @@ input[type="checkbox"] {
     background-color: #FFFFFF;
     border-radius: 5px;
 
+}
+
+.input_box2 input {
+    color: #7b7b7b;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+.input_box2 input::placeholder {
+    color: #7b7b7b;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .B-sub {
@@ -445,6 +470,7 @@ input[type="checkbox"] {
 
 }
 
+
 .subscribe_btn {
     background-color: #FF5300;
     padding: 15px 35px;
@@ -497,8 +523,9 @@ input[type="checkbox"] {
 }
 
 .icon {
+    margin-top: 16px;
     background-color: #FFFFFF;
-    padding: 20px 23px;
+    padding: 14px 16.5px;
     border-radius: 100px;
     cursor: pointer;
 }
@@ -700,6 +727,11 @@ input[type="checkbox"] {
 
     .fs_lg {
         font-size: 32px;
+    }
+
+    .input_box2 input {
+        padding-left: 0px;
+        font-size: 10px;
     }
 
 }
